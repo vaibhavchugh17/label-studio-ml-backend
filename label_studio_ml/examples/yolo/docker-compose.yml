@@ -53,8 +53,8 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - "../../../models/yolov9_letters_2024-09-26.pt:/app/models/yolov9_letters.pt"
-      - "../../../models/yolov9_ids_2024-09-29.pt:/app/models/yolov9_ids.pt"
+      - "../../../../models/yolov9_letters_2024-09-26.pt:/app/models/yolov9_letters.pt"
+      - "../../../../models/yolov9_ids_2024-09-29.pt:/app/models/yolov9_ids.pt"
       - "./data/server:/data"
       - "./models:/app/models"
       - "./cache_dir:/app/cache_dir"

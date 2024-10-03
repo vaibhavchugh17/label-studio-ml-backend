@@ -132,3 +132,7 @@ dmypy.json
 .github/actions-hub
 
 .idea/
+
+# YOLO
+label_studio_ml/examples/yolo/data/*
+label_studio_ml/examples/yolo/models/*
