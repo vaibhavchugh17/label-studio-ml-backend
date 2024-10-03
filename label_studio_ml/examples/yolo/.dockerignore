@@ -15,9 +15,13 @@
 
 # Include requirements files
 !requirements*.txt
+!pip_requirements*.txt
 
 # Include script
 !*.sh
+
+# Include yolov9 reoi
+!yolov9_repo/*
 
 # Exclude specific requirements if necessary
 # requirements-test.txt (Uncomment if you decide to exclude this)

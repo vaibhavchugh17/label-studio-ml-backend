@@ -1,17 +1,9 @@
 version: "3.8"
 
 services:
-  # yolo:
-  #   container_name: yolo
-  #   image: humansignal/yolo:v0
-  #   build:
-  #     context: .
-  #     args:
-  #       TEST_ENV: ${TEST_ENV}
-  machinevision-mlbackend:
-    container_name: machinevision-mlbackend
-    image: cpkc/machinevision-mlbackend:latest 
-    restart: unless-stopped
+  yolo:
+    container_name: yolo
+    image: humansignal/yolo:v0
     build:
       context: .
       args:
